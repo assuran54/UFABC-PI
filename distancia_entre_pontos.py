@@ -1,0 +1,8 @@
+xa=float(input('xa:'))
+ya=float(input('ya:'))
+xb=float(input('xb:'))
+yb=float(input('yb:'))
+
+import math
+Distancia=math.sqrt((xb-xa)**2 + (yb-ya)**2)
+print('Distancia = ',round(Distancia,1))
